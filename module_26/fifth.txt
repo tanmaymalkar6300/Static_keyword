@@ -1,0 +1,12 @@
+Q5. Why is the static method also called as class method?
+Ans:- Static methods are called class methods because they belong to the class itself and are not tied to any specific instance. They are useful for performing operations that do not depend on instance-specific data, enabling functionality to be shared across all instances of the class.
+
+* Key Characteristics of Static Methods (Class Methods):-
+
+Belong to the Class: Static methods are associated with the class itself, not with any particular instance. This means that you can call a static method without creating an object of the class.
+
+Access via Class Name: Static methods are typically called using the class name rather than an object reference, emphasizing their association with the class.
+
+Cannot Access Instance Variables/Methods Directly: Because static methods are not tied to any particular object instance, they cannot directly access instance variables or instance methods. They can only access other static members (variables and methods) of the class.
+
+Utility Functions: Static methods are often used for utility or helper functions that perform operations not dependent on instance data, such as mathematical calculations, formatting strings, or managing collections.

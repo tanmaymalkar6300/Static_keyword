@@ -1,0 +1,13 @@
+Q8.Difference between static and non static members
+Ans:- 
+* Static members
+1. These variables are call class variables.
+2. These variables will get memory in the method area.
+3. Inside a static are we can access static variabels only.
+4. Static variabels are created ussing static keywords.
+
+* Non-static members
+1. These variables are called instaance variabels
+2. These variabels will get the memory in the heap area
+3. Inside a non static area we can access both static and non static variables
+4. Non static variabels are created without using the "static" keyword.

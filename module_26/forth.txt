@@ -1,0 +1,13 @@
+
+In Java, the static block (also known as a static initializer block) is executed before the main method because the static block is part of the class initialization process.
+
+ * Here's a detailed explanation:
+# Class Initialization Process
+1. Loading: The class loader loads the class into memory.
+2. Linking: This step involves verification, preparation, and      resolution of the class.
+3. Initialization: This is where static variables are assigned their values and static blocks are executed.
+
+* Why Static Block Executes Before main()
+
+Static Block: It is executed when the class is first loaded into memory, before any instance of the class is created and before any static methods are accessed. This ensures that any static initialization the class requires is completed before the class is used.
+Main Method: The main method is the entry point of the program, but it is a static method itself. The class containing the main method must be initialized before the main method can be invoked

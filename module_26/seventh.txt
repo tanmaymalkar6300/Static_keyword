@@ -1,0 +1,17 @@
+Q7. Difference between static and instance variable?
+Ans:-
+* Instance Variable:-
+Belongs to an Instance: Each instance of a class has its own copy of an instance variable.
+Memory Allocation: Memory for instance variables is allocated when an object is created, and each object gets its own copy.
+Scope: Defined within a class but outside any method, constructor, or block.
+Initialization: Can be initialized when declared or in the constructor.
+Access: Accessed through an object of the class.
+Lifetime: Exists as long as the object exists.
+
+* Static Variable:-
+Belongs to the Class: Shared among all instances of the class. There is only one copy of a static variable, regardless of how many objects are created.
+Memory Allocation: Memory for static variables is allocated when the class is loaded, and it remains for the entire duration of the program.
+Scope: Defined within a class but outside any method, constructor, or block, and marked with the static keyword.
+Initialization: Can be initialized when declared or in a static block.
+Access: Accessed directly through the class name, but can also be accessed through an object.
+Lifetime: Exists for the duration of the program, from class loading to program termination.

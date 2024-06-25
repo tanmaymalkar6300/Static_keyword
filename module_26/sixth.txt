@@ -1,0 +1,5 @@
+Q6. What is the use of static block in java?
+Ans:- It used to initialized static data member.
+It is used to initialized before the main method at the time of class loading.
+It gets executed only once when the class gets loaded.
+It is not necessary to executed it again when creating different objects after the firt time.
